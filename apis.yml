@@ -1,21 +1,48 @@
 aid: gain-credit
 name: Gain Credit
-description: 'Gain Credit is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: credit. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'GAIN Credit is a market-leading fintech providing responsible, AI-powered
+  credit solutions for people underserved by traditional banks and lenders. The company
+  combines deep financial expertise with advanced, AI-enabled credit-decisioning technology
+  to offer affordable consumer lending, with funds disbursed within roughly 90 seconds
+  of approval. GAIN Credit operates three consumer lending brands — Lending Stream,
+  Drafty, and Afforda — serving the underserved credit market primarily in the UK,
+  with operations across the US and India. Backed by QED Investors, Crosslink Capital,
+  and Mohr Davidow. This corporate profile publishes no public developer API surface;
+  it was surfaced as a QED Investors portfolio company and enriched by the API Evangelist
+  pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/gain-credit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qed-investors
+- crosslink-capital
+- mohr-davidow
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://gaincredit.com/wp-content/uploads/2025/09/GC-Black-logo-1.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Credit
+- Lending
+- Fintech
+- Financial Services
+- Consumer Finance
+- Financial Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://gaincredit.com
+  url: https://gaincredit.com/
+- type: About
+  url: https://gaincredit.com/about/
+- type: Blog
+  url: https://gaincredit.com/news-events/
+- type: BlogRSS
+  url: https://gaincredit.com/feed/
+- type: InvestorRelations
+  url: https://gaincredit.com/investor-relations/
+- type: Careers
+  url: https://gaincredit.com/join-us/
+- type: DomainSecurity
+  url: security/gain-credit-domain-security.yml
+- type: LLMsTxt
+  url: llms/gain-credit-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
