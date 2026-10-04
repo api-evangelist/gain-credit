@@ -51,7 +51,7 @@ tags:
 - Credit
 - Lending
 - Fintech
-- Financial-Services
+- Financial Services
 - Consumer Finance
 - Financial Inclusion
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Financial Services
 - Consumer Finance
 - Financial Inclusion
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
